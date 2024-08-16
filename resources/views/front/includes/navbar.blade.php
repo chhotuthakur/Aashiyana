@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
         <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
             <div class="icon p-1 me-2" >
-                <img class="img-fluid" src="img/logoa.png" alt="Icon" style="width: 60px; height: 60px;">
+                <img class="img-fluid" src="frontend/img/logoa.png" alt="Icon" style="width: 60px; height: 60px;">
             </div>
             <!-- <h1 class="m-0" style="color:#C33F2C">Aashiyana</h1> -->
         </a>
