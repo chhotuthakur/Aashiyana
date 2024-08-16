@@ -11,72 +11,10 @@
         <!-- Spinner End -->
 
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <div class="icon p-1 me-2" >
-                        <img class="img-fluid" src="img/logoa.png" alt="Icon" style="width: 60px; height: 60px;">
-                    </div>
-                    <!-- <h1 class="m-0" style="color:#C33F2C">Aashiyana</h1> -->
-                </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="property-list.html" class="dropdown-item">Property List</a>
-                                <a href="property-type.html" class="dropdown-item">Property Type</a>
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="404.html" class="dropdown-item">Contat Us</a>
-                                <a href="404.html" class="dropdown-item">Payment & Cancellation</a>
-                                <a href="404.html" class="dropdown-item">Privacy policy</a>
-                                <a href="404.html" class="dropdown-item">Terms & Conditions </a>
-                            </div>
-                        </div>
-                        <a href="" class="nav-item nav-link">Package</a>
-                    </div>
-                    <div class="sign-con" style=" display: flex; gap: 10px;">
-                        <a href="/Login.html" class="btn btn-primary px-3 d-none d-lg-flex" style="background-color: #0E2E50;">Sign-up / log-in</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+       @include('front.includes.navbar')
 
 
-        <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="" style="color: #C33F2C;">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn" style="background-color: #C33F2C;">Get Started</a>
-                </div>
-                <div class="col-md-6 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
-                        </div>
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header End -->
-
+       
 
         <!-- Search Start -->
         <div class="container-fluid mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px; background-color: #C33F2C; border-radius: 20px; margin-top: 30px; width: 95%;">
