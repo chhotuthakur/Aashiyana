@@ -1,10 +1,12 @@
+<?php
+
 namespace App\Http\Controllers;
 
-use App\Models\Page;
+use App\Models\Pages;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
-class PageController extends Controller
+class PagesController extends Controller
 {
     /**
      * Display a listing of the pages.
@@ -13,7 +15,7 @@ class PageController extends Controller
      */
     public function index()
     {
-        $pages = Page::all();
+        $pages = Pages::all();
         return view('pages.index', compact('pages'));
     }
 
@@ -43,7 +45,7 @@ class PageController extends Controller
 
         $validatedData['slug'] = Str::slug($validatedData['slug']);
 
-        $page = Page::create($validatedData);
+        $page = App\Http\Controllers\Pages::create($validatedData);
 
         return redirect()->route('pages.index')->with('success', 'Page created successfully.');
     }
@@ -54,7 +56,7 @@ class PageController extends Controller
      * @param  \App\Models\Page  $page
      * @return \Illuminate\Http\Response
      */
-    public function show(Page $page)
+    public function show(Pages $page)
     {
         return view('pages.show', compact('page'));
     }
