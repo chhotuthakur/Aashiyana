@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientsController;
 
 Route::get('/', function () {
-    return view('index')->name('home');
+    return view('index');
 });
 Route::get('/login', function () {
     return view('Login');
