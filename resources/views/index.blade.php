@@ -1,11 +1,6 @@
 @extends('front.layouts.base')
 @section('page-content')
- 
- 
-
-
        
-
         <!-- Search Start -->
         <div class="container-fluid mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px; background-color: #C33F2C; border-radius: 20px; margin-top: 30px; width: 95%;">
             <div class="container">
