@@ -48,10 +48,10 @@
                 <h5 class="text-white mb-4">Download Our App</h5>
                 <div class=" mx-auto" style="display: grid; justify-content: center; align-items: center; width: 95%;">
                     <a href="">
-                        <img src="img/playstore.png" class="py-2 px-1 top-0 end-0 mt-2 me-2" style="width: 180px; height: 90px;"></img>
+                        <img src="{{asset('frontend/img/playstore.png')}}" class="py-2 px-1 top-0 end-0 mt-2 me-2" style="width: 180px; height: 90px;"></img>
                     </a>
                     <a href="">
-                        <img src="img/apk.png" class="py-1  end-0 -mt-2 me-1" style="width: 190px; height: 90px;"></img>
+                        <img src="{{asset('frontend/img/apk.png')}}" class="py-1  end-0 -mt-2 me-1" style="width: 190px; height: 90px;"></img>
                     </a>
                 </div>
             </div>
